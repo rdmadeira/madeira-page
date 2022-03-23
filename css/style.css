@@ -1,12 +1,51 @@
-@media (min-width:761px) {
-    /* @import url(style2.css); */
+/* @import url(style2.css); */
+@media (min-width:761px) and (orientation: landscape), (min-aspect-ratio: 500/647) {
+    
+    
+    
     header nav {
         justify-content: space-between;
-        height: unset;
+        height: max-content;
     }
     .menu {
         width: unset;
         margin-top: unset;
     }
+    .logo {
+        width: 12%;
+        min-width: 150px;
+    }
+    .menu>ul>li {
+        font-size: min(1.8vw,16px);
+    }
+    .sec-01 {
+        padding-top: 0vw;
+        height: 78vh;
+    }
+    .sec-01-left {
+        row-gap: 3vw;
+        padding: 0vw 7vw;
+        width: 55%;
+    }
+    .sec-01-left h1 {
+        font-size: 2.2em;
+    }
+    .sec-01-left h2 {
+        font-size: 1.4em;
+    }
+    .sec-01-left p {
+        font-size: 1.2em;
+    }
+    .btn-km {
+        width: 50%;
+        font-size: 1.2em;
+    }
+    .sec-01-right {
+        width: 45%;
+    }
+    .sec-01-right img {
+        height: 100%;
+    }
+
     
 }
