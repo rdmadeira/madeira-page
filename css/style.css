@@ -1,0 +1,12 @@
+@media (min-width:761px) {
+    /* @import url(style2.css); */
+    header nav {
+        justify-content: space-between;
+        height: unset;
+    }
+    .menu {
+        width: unset;
+        margin-top: unset;
+    }
+    
+}
