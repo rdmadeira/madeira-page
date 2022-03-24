@@ -1,5 +1,5 @@
 /* @import url(style2.css); */
-@media (min-width:761px) and (orientation: landscape), (min-aspect-ratio: 500/647) {
+@media (min-width:920px) and (orientation: landscape), (min-aspect-ratio: 500/647) {
     
     
     
@@ -20,31 +20,55 @@
     }
     .sec-01 {
         padding-top: 0vw;
-        height: 78vh;
+        height: calc(100vh - 84px - 6vh);
+        justify-content: center;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
     }
     .sec-01-left {
         row-gap: 3vw;
         padding: 0vw 7vw;
-        width: 55%;
+        width: 50%;
+        flex-grow: 2;
     }
     .sec-01-left h1 {
-        font-size: 2.2em;
+        font-size: 4.3vw;
     }
     .sec-01-left h2 {
-        font-size: 1.4em;
+        font-size: 2.1vw;
     }
     .sec-01-left p {
-        font-size: 1.2em;
+        font-size: 2.2vw;
     }
     .btn-km {
         width: 50%;
-        font-size: 1.2em;
+        min-width: fit-content;
+        font-size: max(1.5vw,12px);
     }
     .sec-01-right {
-        width: 45%;
+        width: 40%;
+        min-width: 335px;
+        max-width: 445px;
     }
     .sec-01-right img {
         height: 100%;
+    }
+    .sec-02 {
+        flex-direction: row;
+        padding: 13vw 10vw;
+        column-gap: 6vw;
+        align-items: baseline;
+    }
+    .sec-02-div {
+        flex-direction: column;
+        width: 27%;
+        row-gap: 5vw;
+    }
+    .sec-02-div div {
+        width: 50%;
+    }
+    .sec-02-div p {
+        font-size: max(2.2vw,16px);
     }
 
     
