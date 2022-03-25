@@ -269,5 +269,23 @@ hr {
 footer {
     background: var(--black-olive);
     width: 100%;
-    height: 12vh;
+    /* height: 16vh; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo-footer {
+    width: 35%;
+}
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10vw 0vw;
+}
+.contact-icons {
+    width: 5%;
+    height: fit-content;
 }

@@ -1,4 +1,4 @@
-@media (max-width:580px) and (orientation:portrait) and (max-aspect-ratio: 500/648) {
+@media (max-width:512px) and (orientation:portrait) and (max-aspect-ratio: 7/10) {
     header nav {
         height: max-content;
         flex-direction: column;
