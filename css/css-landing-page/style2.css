@@ -1,7 +1,9 @@
-@media screen and (max-width:760px) {
-        .third-section-div {
+@media screen and (max-width:520px) {
+    
+    .third-section-div {
         flex-direction: column;
         height: fit-content;
+        row-gap: 10vw;
     }
     .third-section-left-div {
         width: 100%;
@@ -10,5 +12,9 @@
         width: 100%;
         height: max-content;
     }
+    div.my-description {
+        margin-bottom: 10vw;
+    }
 
 }
+

@@ -52,7 +52,15 @@ main {
 
 
 /* ************* About Me ********************************* */
-
+.header-navbar, .menu ul {
+    background: var(--marine-green);
+}
+.menu>ul>li, .menu ul li a {
+    color: var(--black-olive);
+}
+h1, h2 {
+    font-weight: 100;
+}
 
 .third-section-div {
     display: flex;
@@ -155,4 +163,13 @@ div.my-description {
 }
 .my-description div img {
     width: 100%;
+}
+@media screen and (min-width:521px) and (max-width:980px) {
+    div.my-description {
+        width: 95%;
+    }
+    .my-description p {
+        margin-bottom: 0;
+        font-size: max(1.4vw,19px);
+    }
 }
