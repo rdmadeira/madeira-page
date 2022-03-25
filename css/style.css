@@ -1,5 +1,5 @@
 /* @import url(style2.css); */
-@media (min-width:920px) and (orientation: landscape), (min-aspect-ratio: 500/647) {
+@media (min-width:920px) and (orientation: landscape), (min-aspect-ratio: 3/4) {
     
     
     
@@ -69,6 +69,17 @@
     }
     .sec-02-div p {
         font-size: max(2.2vw,16px);
+    }
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo-footer {
+        width: 15%;
+    }
+    .contact {
+        width: 40%;
+        margin: 5vw 0vw;
     }
 
     
