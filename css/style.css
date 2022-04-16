@@ -72,13 +72,12 @@
     }
     footer {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .logo-footer {
         width: 15%;
     }
     .contact {
-        width: 40%;
         margin: 3vw 0vw;
     }
 
