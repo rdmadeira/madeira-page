@@ -300,8 +300,9 @@ hr {
 .clients {
     width: 315px;
     padding: 2vw;
-    border: solid 1px var(--russian-green);
+    /* border: solid 1px var(--russian-green); */
     margin-bottom: 5vw;
+    box-shadow: -6px -6px 16px #ffffff85, 6px 6px 16px #70937b69;
 }
 a.clients:hover {
     background: var(--whitegreen);
