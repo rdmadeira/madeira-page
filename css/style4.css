@@ -1,0 +1,19 @@
+@media screen and (max-width:920px) and (min-width:521px) and (orientation:portrait) and (max-aspect-ratio: 7/10) {
+    .sec-01-right {
+        width: 50%;
+        
+        max-width: 445px;
+    }
+    .sec-01-right img {
+        height: auto;
+    }
+    .clients {
+        width: 35%;
+    }
+    footer>div {
+        width: 80%;
+    }
+    .footer-nav-li {
+        font-size: max(3.8vw,25px);
+    }
+}

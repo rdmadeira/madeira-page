@@ -279,6 +279,57 @@ hr {
     width: 5%;
     height: fit-content;
 }
+.sec-03-clients {
+    width: 100%;
+    background-color: var(--ash-gray);
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3vw;
+    align-items: stretch;
+    justify-content: center;
+}
+.sec-03-clients h2 {
+    width: 100%;
+    text-align: center;
+    margin: 3vw auto;
+    color: var(--black-olive);
+    font-family: var(--font-h);
+    letter-spacing: 5px;
+    font-size: min(max(4.5vw,37px),45px);
+}
+.clients {
+    width: 315px;
+    padding: 2vw;
+    border: solid 1px var(--russian-green);
+    margin-bottom: 5vw;
+}
+a.clients:hover {
+    background: var(--whitegreen);
+    transform: scale(1.03);
+    transition: ease-out 0.2s all;
+}
+.clients>div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vw;
+}
+.ctn-img-clients {
+    width: 100%;
+}
+.ctn-txt-clients {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5vw;
+    color: var(--black-olive);
+    font-family: var(--font-menu);
+}
+.ctn-txt-clients h3 {
+    font-size: 25px;
+}
+.ctn-txt-clients p {
+    font-size: 20px;
+}
+
 footer {
     background: var(--black-olive);
     display: flex;

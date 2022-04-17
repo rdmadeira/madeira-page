@@ -61,19 +61,37 @@
     }
     .btn-km {
         width: 45%;
+        font-size: 4.5vw;
     }
     .sec-01-right {
         width: 100%;
         height: 68%;
         order: 1;
     }
-    .sec-01-right img {
+    /* .sec-01-right img {
         height: 100%;
-    }
+    } */
     hr {
         height: 4vh;
     }
     .sec-02 {
         row-gap: 10vw;
+    }
+    .clients {
+        width: 70%;
+        margin-bottom: 12vw;
+    }
+    .sec-03-clients h2{
+        margin: 12vw auto;
+    }
+    .ctn-txt-client h3 {
+        font-size: 20px;
+    }
+    .contact {
+        width: 100vw;
+    }
+    .contact-icons {
+        width: 5%;
+        
     }
 }

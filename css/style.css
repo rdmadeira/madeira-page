@@ -1,8 +1,5 @@
 /* @import url(style2.css); */
-@media (min-width:920px) and (orientation: landscape), (min-aspect-ratio: 3/4) {
-    
-    
-    
+@media (min-width:921px) and (orientation: landscape), (min-aspect-ratio: 3/4) {
     header nav {
         justify-content: space-between;
         height: max-content;
@@ -23,7 +20,6 @@
         height: calc(100vh - 84px - 6vh);
         justify-content: center;
         flex-wrap: nowrap;
-        overflow-x: scroll;
     }
     .sec-01-left {
         row-gap: 3vw;
@@ -80,6 +76,4 @@
     .contact {
         margin: 3vw 0vw;
     }
-
-    
 }
